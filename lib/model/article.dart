@@ -1,11 +1,11 @@
 import 'package:meta/meta.dart';
 
 class Article {
-  final String articleId;
+  final int articleId;
   final String articleDescription;
-  final String eancode;
-  final String mrp;
-  final String noOfCopies;
+  final int eancode;
+  final int mrp;
+  final int noOfCopies;
   final String selected;
 
   const Article({
@@ -26,4 +26,5 @@ class Article {
         selected: json['selected'],
       );
 
+  
 }
